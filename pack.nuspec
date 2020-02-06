@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+		<metadata>
+			<id>EntityFrameworkCore.DbContextScope.Extension</id>
+			<version>1.0.0</version>
+			<description>Extension for EntityFrameworkCore.DbContextScope.</description>
+			<authors>barimale</authors>
+			<owners>barimale</owners>
+			<requireLicenseAcceptance>false</requireLicenseAcceptance>
+			<projectUrl>https://github.com/barimale/EntityFrameworkCore.DbContextScope.Extension</projectUrl>
+			<tags>EntityFrameworkCore;DbContextScope;Extension</tags>
+			<dependencies>
+				<group targetFramework=".NETFramework4.6.1">
+					<dependency id="CqrsLite" version="0.29.0" exclude="Build,Analyzers" />
+				</group>
+				<group targetFramework=".NETFramework4.7">
+
+				</group>
+				<group targetFramework=".NETCoreApp3.0">
+
+				</group>
+			</dependencies>
+		</metadata>
+	<files>
+		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\net47\EntityFrameworkCore.DbContextScope.Extension.dll" target="lib\net47" />
+		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\net47\EntityFrameworkCore.DbContextScope.Extension.pdb" target="lib\net47" />
+		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\netcoreapp3.0\EntityFrameworkCore.DbContextScope.Extension.dll" target="lib\netcoreapp3.0" />
+		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\netcoreapp3.0\EntityFrameworkCore.DbContextScope.Extension.pdb" target="lib\netcoreapp3.0" />
+	</files>
+</package>
