@@ -23,3 +23,5 @@ bin
 /packages
 /.vs/CQRSlite.Ninject.Binding/DesignTimeBuild
 /.vs/EntityFrameworkCore.DbContextScope.Extension
+/**/*.user
+*.user

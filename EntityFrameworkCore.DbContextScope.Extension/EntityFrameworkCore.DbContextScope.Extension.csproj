@@ -8,11 +8,11 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>barimale</Authors>
     <Description>Primary Ninject bindings for CQRSlite package.</Description>
-    <RepositoryUrl>https://github.com/barimale/CQRSlite.Ninject.Binding</RepositoryUrl>
-    <PackageTags>CQRSlite;Ninject;Bindings</PackageTags>
+    <RepositoryUrl>https://github.com/barimale/EntityFrameworkCore.DbContextScope.Extension</RepositoryUrl>
+    <PackageTags>EntityFrameworkCore;DbContextScope;Extension</PackageTags>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <RootNamespace>CQRSlite.Ninject.Bindings</RootNamespace>
+    <RootNamespace>EntityFrameworkCore.DbContextScope.Extension</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="1.1.2" />
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.0" />
   </ItemGroup>
 

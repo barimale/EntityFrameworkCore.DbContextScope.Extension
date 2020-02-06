@@ -12,7 +12,13 @@ using System.Collections;
 using System.Data;
 using System.Linq;
 using System.Runtime.CompilerServices;
+#if NET461
 using System.Runtime.Remoting.Messaging;
+#elif NET47
+using System.Runtime.Remoting.Messaging;
+#elif NETCOREAPP3_0
+using CQRSlite.Ninject.Bindings.MimicCallContext;
+#endif
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -307,7 +313,7 @@ Stack Trace:
 
         }
 
-        #region Ambient Context Logic
+#region Ambient Context Logic
 
         /*
          * This is where all the magic happens. And there is not much of it.
@@ -464,7 +470,7 @@ Stack Trace:
             return null;
         }
 
-        #endregion
+#endregion
     }
 
     /*

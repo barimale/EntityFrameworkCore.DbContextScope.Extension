@@ -11,17 +11,25 @@
 			<tags>EntityFrameworkCore;DbContextScope;Extension</tags>
 			<dependencies>
 				<group targetFramework=".NETFramework4.6.1">
-					<dependency id="CqrsLite" version="0.29.0" exclude="Build,Analyzers" />
+					<dependency id="System.Runtime" version="4.3.0" exclude="Build,Analyzers" />
+					<dependency id="Microsoft.EntityFrameworkCore.Relational" version="1.1.2" exclude="Build,Analyzers" />
+					<dependency id="Microsoft.Windows.Compatibility" version="3.1.0" exclude="Build,Analyzers" />
 				</group>
 				<group targetFramework=".NETFramework4.7">
-
+					<dependency id="System.Runtime" version="4.3.1" exclude="Build,Analyzers" />
+					<dependency id="Microsoft.EntityFrameworkCore.Relational" version="1.1.2" exclude="Build,Analyzers" />
+					<dependency id="Microsoft.Windows.Compatibility" version="3.1.0" exclude="Build,Analyzers" />
 				</group>
 				<group targetFramework=".NETCoreApp3.0">
-
+					<dependency id="System.Runtime" version="4.3.1" exclude="Build,Analyzers" />
+					<dependency id="Microsoft.EntityFrameworkCore.Relational" version="1.1.2" exclude="Build,Analyzers" />
+					<dependency id="Microsoft.Windows.Compatibility" version="3.1.0" exclude="Build,Analyzers" />
 				</group>
 			</dependencies>
 		</metadata>
 	<files>
+		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\net461\EntityFrameworkCore.DbContextScope.Extension.dll" target="lib\net461" />
+		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\net461\EntityFrameworkCore.DbContextScope.Extension.pdb" target="lib\net461" />
 		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\net47\EntityFrameworkCore.DbContextScope.Extension.dll" target="lib\net47" />
 		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\net47\EntityFrameworkCore.DbContextScope.Extension.pdb" target="lib\net47" />
 		<file src="EntityFrameworkCore.DbContextScope.Extension\bin\Release\netcoreapp3.0\EntityFrameworkCore.DbContextScope.Extension.dll" target="lib\netcoreapp3.0" />
