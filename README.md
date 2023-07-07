@@ -1,5 +1,5 @@
 # EntityFrameworkCore.DbContextScope.Extension
-It is just a POC. There are many similar solutions available i.e. here:
+It is just a POC. There are many similar, full solutions available i.e. here:
 ```
 nuget.org
 ```
